@@ -1,0 +1,17 @@
+Fan Speed 1
+Fan Speed 2
+Fan Speed 3
+Fan Speed 4
+Fan Speed 5
+Fan Speed 6
+Fan Off
+Fan Reverse
+Colour Temp -
+Colour Temp Presetet
+Colour Temp +
+Brightness -
+Light On/Off
+Brightness +
+Timer 1H
+Timer 4H
+Timer 8H

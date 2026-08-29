@@ -1,0 +1,118 @@
+script:
+  - id: send_rf_code
+    parameters:
+      code_binary: string
+    then:
+      - remote_transmitter.transmit_rc_switch_raw:
+          code: !lambda 'return code_binary;'
+          protocol:
+            pulse_length: 432
+            sync: [277, 1124]
+            zero: [0, 5068]
+            one: [1144, 5068]
+          repeat:
+            times: 7
+
+button:
+  - platform: template
+    name: "testremote_Fan Speed 1"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010000111111101100"  # b4cd78098
+  - platform: template
+    name: "testremote_Fan Speed 2"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010000111011011110"  # b4cd78908
+  - platform: template
+    name: "testremote_Fan Speed 3"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010000110110110010"  # b4cd79268
+  - platform: template
+    name: "testremote_Fan Speed 4"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010000110010000100"  # b4cd79bd8
+  - platform: template
+    name: "testremote_Fan Speed 5"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010000101101111000"  # b4cd7a438
+  - platform: template
+    name: "testremote_Fan Speed 6"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010000101001001010"  # b4cd7ada8
+  - platform: template
+    name: "testremote_Fan Off"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001110000111010"  # b4cd71e28
+  - platform: template
+    name: "testremote_Fan Reverse"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010000100100000000"  # b4cd7b7f8
+  - platform: template
+    name: "testremote_Colour Temp -"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001111011101100"  # b4cd70898
+  - platform: template
+    name: "testremote_Colour Temp Presetet"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001101111000010"  # b4cd721e8
+  - platform: template
+    name: "testremote_Colour Temp +"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001110110100010"  # b4cd712e8
+  - platform: template
+    name: "testremote_Brightness -"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001100110001000"  # b4cd733b8
+  - platform: template
+    name: "testremote_Light On/Off"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001010101101110"  # b4cd75488
+  - platform: template
+    name: "testremote_Brightness +"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001011101001110"  # b4cd74588
+  - platform: template
+    name: "testremote_Timer 1H"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001010000100010"  # b4cd75ee8
+  - platform: template
+    name: "testremote_Timer 4H"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001000100011000"  # b4cd77738
+  - platform: template
+    name: "testremote_Timer 8H"
+    on_press:
+      - script.execute:
+          id: send_rf_code
+          code_binary: "010010110011001010001001111101000"  # b4cd760b8

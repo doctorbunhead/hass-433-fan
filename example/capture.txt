@@ -1,0 +1,482 @@
+rtl_433 version 23.11 (2023-11-28) inputs file rtl_tcp RTL-SDR SoapySDR
+Found Rafael Micro R820T tuner
+[102;92m[[30mSDR[92m][0m Using device 0: Nooelec, NESDR SMArt v5, SN: 14234960, "Generic RTL2832U OEM"
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Allocating 15 zero-copy buffers
+Detected OOK package	2026-08-29 13:49:28
+Analyzing pulses...
+Total count:  329,  width: 531.98 ms		(132996 S)
+Pulse width distribution:
+ [ 0] count:  149,  width:  432 us [424;452]	( 108 S)
+ [ 1] count:  180,  width: 1124 us [1116;1132]	( 281 S)
+Gap width distribution:
+ [ 0] count:  139,  width: 1080 us [1072;1140]	( 270 S)
+ [ 1] count:  180,  width:  380 us [372;392]	(  95 S)
+ [ 2] count:    9,  width: 5052 us [5048;5064]	(1263 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1496;1576]	( 377 S)
+ [ 1] count:    9,  width: 5492 us [5488;5504]	(1373 S)
+Pulse timing distribution:
+ [ 0] count:  329,  width:  404 us [372;452]	( 101 S)
+ [ 1] count:  319,  width: 1104 us [1072;1140]	( 276 S)
+ [ 2] count:    9,  width: 5052 us [5048;5064]	(1263 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  16001,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:     658,      0	(+2.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B04090194045013BC2C3C81908190908181908181819081908190908181908190909090909090819090818255+AAB02A04010194045013BC2C3C819081909081819081818190819081909081819081909090909090908190908355
+Attempting demodulation... short_width: 432, long_width: 1124, reset_limit: 5068, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1124,r=5068,g=1144,t=277,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd78098, {33}b4cd78098, {33}b4cd78098, {33}b4cd78098, {33}b4cd78098, {33}b4cd78098, {33}b4cd78098, {33}b4cd78098, {33}b4cd78098, {32}b4cd7809
+
+Detected OOK package	2026-08-29 13:49:30
+Analyzing pulses...
+Total count:  362,  width: 586.65 ms		(146663 S)
+Pulse width distribution:
+ [ 0] count:  164,  width:  432 us [428;452]	( 108 S)
+ [ 1] count:  198,  width: 1124 us [1116;1132]	( 281 S)
+Gap width distribution:
+ [ 0] count:  154,  width: 1076 us [1064;1088]	( 269 S)
+ [ 1] count:  197,  width:  384 us [372;440]	(  96 S)
+ [ 2] count:   10,  width: 5056 us [5048;5068]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  351,  width: 1508 us [1496;1564]	( 377 S)
+ [ 1] count:   10,  width: 5500 us [5492;5512]	(1375 S)
+Pulse timing distribution:
+ [ 0] count:  361,  width:  408 us [372;452]	( 102 S)
+ [ 1] count:  352,  width: 1104 us [1064;1132]	( 276 S)
+ [ 2] count:   10,  width: 5056 us [5048;5068]	(1264 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15955,      1
+RSSI: -0.1 dB SNR: 42.0 dB Noise: -42.1 dB
+Frequency offsets [F1, F2]:     999,      0	(+3.8 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B040A0198045013C02C3C81908190908181908181819081908190908181908190909081909081909090908255+AAB02A04010198045013C02C3C819081909081819081818190819081909081819081909090819090819090909355
+Attempting demodulation... short_width: 432, long_width: 1124, reset_limit: 5072, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1124,r=5072,g=1092,t=277,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd78908, {33}b4cd78908, {33}b4cd78908, {33}b4cd78908, {33}b4cd78908, {33}b4cd78908, {33}b4cd78908, {33}b4cd78908, {33}b4cd78908, {33}b4cd78908, {32}b4cd7890
+
+Detected OOK package	2026-08-29 13:49:32
+Analyzing pulses...
+Total count:  329,  width: 532.68 ms		(133170 S)
+Pulse width distribution:
+ [ 0] count:  169,  width:  432 us [424;448]	( 108 S)
+ [ 1] count:  160,  width: 1124 us [1116;1132]	( 281 S)
+Gap width distribution:
+ [ 0] count:  160,  width: 1076 us [1072;1084]	( 269 S)
+ [ 1] count:  159,  width:  384 us [372;444]	(  96 S)
+ [ 2] count:    9,  width: 5052 us [5048;5060]	(1263 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1496;1572]	( 377 S)
+ [ 1] count:    9,  width: 5492 us [5492;5496]	(1373 S)
+Pulse timing distribution:
+ [ 0] count:  328,  width:  408 us [372;448]	( 102 S)
+ [ 1] count:  320,  width: 1100 us [1072;1132]	( 275 S)
+ [ 2] count:    9,  width: 5052 us [5048;5060]	(1263 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15887,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     705,      0	(+2.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B04090198044C13BC2C3C81908190908181908181819081908190908181908190908190908190908181908255+AAB02A04010198044C13BC2C3C819081909081819081818190819081909081819081909081909081909081819355
+Attempting demodulation... short_width: 432, long_width: 1124, reset_limit: 5064, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1124,r=5064,g=1088,t=277,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd79268, {33}b4cd79268, {33}b4cd79268, {33}b4cd79268, {33}b4cd79268, {33}b4cd79268, {33}b4cd79268, {33}b4cd79268, {33}b4cd79268, {32}b4cd7926
+
+Detected OOK package	2026-08-29 13:49:35
+Analyzing pulses...
+Total count:  329,  width: 532.08 ms		(133020 S)
+Pulse width distribution:
+ [ 0] count:  199,  width:  432 us [424;456]	( 108 S)
+ [ 1] count:  130,  width: 1120 us [1116;1128]	( 280 S)
+Gap width distribution:
+ [ 0] count:  189,  width: 1080 us [1068;1140]	( 270 S)
+ [ 1] count:  130,  width:  384 us [376;392]	(  96 S)
+ [ 2] count:    9,  width: 5052 us [5048;5060]	(1263 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1496;1580]	( 377 S)
+ [ 1] count:    9,  width: 5492 us [5488;5500]	(1373 S)
+Pulse timing distribution:
+ [ 0] count:  329,  width:  412 us [376;456]	( 103 S)
+ [ 1] count:  319,  width: 1096 us [1068;1140]	( 274 S)
+ [ 2] count:    9,  width: 5052 us [5048;5060]	(1263 S)
+ [ 3] count:    1,  width: 11284 us [11284;11284]	(2821 S)
+Level estimates [high, low]:  15888,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     615,      0	(+2.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B0409019C044813BC2C1481908190908181908181819081908190908181908190908181908181818190818255+AAB02A0401019C044813BC2C14819081909081819081818190819081909081819081909081819081818181908355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5064, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5064,g=1144,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd79bd8, {33}b4cd79bd8, {33}b4cd79bd8, {33}b4cd79bd8, {33}b4cd79bd8, {33}b4cd79bd8, {33}b4cd79bd8, {33}b4cd79bd8, {33}b4cd79bd8, {32}b4cd79bd
+
+Detected OOK package	2026-08-29 13:49:37
+Analyzing pulses...
+Total count:  362,  width: 585.79 ms		(146448 S)
+Pulse width distribution:
+ [ 0] count:  186,  width:  432 us [424;452]	( 108 S)
+ [ 1] count:  176,  width: 1120 us [1112;1132]	( 280 S)
+Gap width distribution:
+ [ 0] count:  175,  width: 1080 us [1072;1144]	( 270 S)
+ [ 1] count:  176,  width:  380 us [376;392]	(  95 S)
+ [ 2] count:   10,  width: 5056 us [5052;5060]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  351,  width: 1508 us [1496;1580]	( 377 S)
+ [ 1] count:   10,  width: 5492 us [5488;5500]	(1373 S)
+Pulse timing distribution:
+ [ 0] count:  362,  width:  408 us [376;452]	( 102 S)
+ [ 1] count:  351,  width: 1100 us [1072;1144]	( 275 S)
+ [ 2] count:   10,  width: 5056 us [5052;5060]	(1264 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15998,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     922,      0	(+3.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B040A0198044C13C02C3C81908190908181908181819081908190908181908190819090819090909081818255+AAB02A04010198044C13C02C3C819081909081819081818190819081909081819081908190908190909090818355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5064, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5064,g=1148,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd7a438, {33}b4cd7a438, {33}b4cd7a438, {33}b4cd7a438, {33}b4cd7a438, {33}b4cd7a438, {33}b4cd7a438, {33}b4cd7a438, {33}b4cd7a438, {33}b4cd7a438, {32}b4cd7a43
+
+Detected OOK package	2026-08-29 13:49:40
+Analyzing pulses...
+Total count:  329,  width: 532.80 ms		(133199 S)
+Pulse width distribution:
+ [ 0] count:  189,  width:  432 us [424;448]	( 108 S)
+ [ 1] count:  140,  width: 1120 us [1116;1132]	( 280 S)
+Gap width distribution:
+ [ 0] count:  180,  width: 1076 us [1068;1088]	( 269 S)
+ [ 1] count:  139,  width:  384 us [376;444]	(  96 S)
+ [ 2] count:    9,  width: 5056 us [5052;5060]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1496;1572]	( 377 S)
+ [ 1] count:    9,  width: 5496 us [5492;5504]	(1374 S)
+Pulse timing distribution:
+ [ 0] count:  328,  width:  412 us [376;448]	( 103 S)
+ [ 1] count:  320,  width: 1096 us [1068;1132]	( 274 S)
+ [ 2] count:    9,  width: 5056 us [5052;5060]	(1264 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15956,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:    1211,      0	(+4.6 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B0409019C044813C02C3C81908190908181908181819081908190908181908190819081819081819081908255+AAB02A0401019C044813C02C3C819081909081819081818190819081909081819081908190818190818190819355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5064, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5064,g=1092,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd7ada8, {33}b4cd7ada8, {33}b4cd7ada8, {33}b4cd7ada8, {33}b4cd7ada8, {33}b4cd7ada8, {33}b4cd7ada8, {33}b4cd7ada8, {33}b4cd7ada8, {32}b4cd7ada
+
+Detected OOK package	2026-08-29 13:49:43
+Analyzing pulses...
+Total count:  296,  width: 478.86 ms		(119714 S)
+Pulse width distribution:
+ [ 0] count:  152,  width:  432 us [424;452]	( 108 S)
+ [ 1] count:  144,  width: 1124 us [1116;1132]	( 281 S)
+Gap width distribution:
+ [ 0] count:  144,  width: 1076 us [1072;1084]	( 269 S)
+ [ 1] count:  143,  width:  384 us [372;444]	(  96 S)
+ [ 2] count:    8,  width: 5056 us [5052;5060]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  287,  width: 1508 us [1496;1568]	( 377 S)
+ [ 1] count:    8,  width: 5492 us [5488;5500]	(1373 S)
+Pulse timing distribution:
+ [ 0] count:  295,  width:  408 us [372;452]	( 102 S)
+ [ 1] count:  288,  width: 1100 us [1072;1132]	( 275 S)
+ [ 2] count:    8,  width: 5056 us [5052;5060]	(1264 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15897,      1
+RSSI: -0.1 dB SNR: 42.0 dB Noise: -42.1 dB
+Frequency offsets [F1, F2]:    1247,      0	(+4.8 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B04080198044C13C02C3C81908190908181908181819081908190908181909090908181818190909081908255+AAB02A04010198044C13C02C3C819081909081819081818190819081909081819090909081818181909090819355
+Attempting demodulation... short_width: 432, long_width: 1124, reset_limit: 5064, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1124,r=5064,g=1088,t=277,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd71e28, {33}b4cd71e28, {33}b4cd71e28, {33}b4cd71e28, {33}b4cd71e28, {33}b4cd71e28, {33}b4cd71e28, {33}b4cd71e28, {32}b4cd71e2
+
+Detected OOK package	2026-08-29 13:49:46
+Analyzing pulses...
+Total count:  296,  width: 478.50 ms		(119625 S)
+Pulse width distribution:
+ [ 0] count:  197,  width:  432 us [424;452]	( 108 S)
+ [ 1] count:   99,  width: 1120 us [1116;1132]	( 280 S)
+Gap width distribution:
+ [ 0] count:  188,  width: 1080 us [1068;1140]	( 270 S)
+ [ 1] count:   99,  width:  380 us [376;388]	(  95 S)
+ [ 2] count:    8,  width: 5056 us [5052;5068]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  287,  width: 1512 us [1496;1576]	( 378 S)
+ [ 1] count:    8,  width: 5500 us [5488;5508]	(1375 S)
+Pulse timing distribution:
+ [ 0] count:  296,  width:  416 us [376;452]	( 104 S)
+ [ 1] count:  287,  width: 1092 us [1068;1140]	( 273 S)
+ [ 2] count:    8,  width: 5056 us [5052;5068]	(1264 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  16000,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     644,      0	(+2.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B040801A0044413C02C3C81908190908181908181819081908190908181908190818190818181818181818255+AAB02A040101A0044413C02C3C819081909081819081818190819081909081819081908181908181818181818355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5072, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5072,g=1144,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd7b7f8, {33}b4cd7b7f8, {33}b4cd7b7f8, {33}b4cd7b7f8, {33}b4cd7b7f8, {33}b4cd7b7f8, {33}b4cd7b7f8, {33}b4cd7b7f8, {32}b4cd7b7f
+
+Detected OOK package	2026-08-29 13:49:49
+Analyzing pulses...
+Total count:  329,  width: 531.84 ms		(132960 S)
+Pulse width distribution:
+ [ 0] count:  149,  width:  432 us [424;452]	( 108 S)
+ [ 1] count:  180,  width: 1120 us [1116;1128]	( 280 S)
+Gap width distribution:
+ [ 0] count:  139,  width: 1080 us [1072;1144]	( 270 S)
+ [ 1] count:  180,  width:  384 us [376;392]	(  96 S)
+ [ 2] count:    9,  width: 5060 us [5056;5064]	(1265 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1500;1580]	( 377 S)
+ [ 1] count:    9,  width: 5496 us [5492;5504]	(1374 S)
+Pulse timing distribution:
+ [ 0] count:  329,  width:  404 us [376;452]	( 101 S)
+ [ 1] count:  319,  width: 1104 us [1072;1144]	( 276 S)
+ [ 2] count:    9,  width: 5060 us [5056;5064]	(1265 S)
+ [ 3] count:    1,  width: 11284 us [11284;11284]	(2821 S)
+Level estimates [high, low]:  15901,      1
+RSSI: -0.1 dB SNR: 42.0 dB Noise: -42.1 dB
+Frequency offsets [F1, F2]:     717,      0	(+2.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B04090194045013C42C1481908190908181908181819081908190908181909090909081909090819090818255+AAB02A04010194045013C42C14819081909081819081818190819081909081819090909090819090908190908355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5068, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5068,g=1148,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd70898, {33}b4cd70898, {33}b4cd70898, {33}b4cd70898, {33}b4cd70898, {33}b4cd70898, {33}b4cd70898, {33}b4cd70898, {33}b4cd70898, {32}b4cd7089
+
+Detected OOK package	2026-08-29 13:49:51
+Analyzing pulses...
+Total count:  329,  width: 532.89 ms		(133222 S)
+Pulse width distribution:
+ [ 0] count:  169,  width:  432 us [424;452]	( 108 S)
+ [ 1] count:  160,  width: 1120 us [1116;1128]	( 280 S)
+Gap width distribution:
+ [ 0] count:  160,  width: 1080 us [1072;1088]	( 270 S)
+ [ 1] count:  159,  width:  384 us [376;448]	(  96 S)
+ [ 2] count:    9,  width: 5056 us [5052;5064]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1496;1568]	( 377 S)
+ [ 1] count:    9,  width: 5496 us [5488;5504]	(1374 S)
+Pulse timing distribution:
+ [ 0] count:  328,  width:  408 us [376;452]	( 102 S)
+ [ 1] count:  320,  width: 1100 us [1072;1128]	( 275 S)
+ [ 2] count:    9,  width: 5056 us [5052;5064]	(1264 S)
+ [ 3] count:    1,  width: 11284 us [11284;11284]	(2821 S)
+Level estimates [high, low]:  15969,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:    1246,      0	(+4.8 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B04090198044C13C02C1481908190908181908181819081908190908181909090819090909081818181908255+AAB02A04010198044C13C02C14819081909081819081818190819081909081819090908190909090818181819355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5068, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5068,g=1092,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd721e8, {33}b4cd721e8, {33}b4cd721e8, {33}b4cd721e8, {33}b4cd721e8, {33}b4cd721e8, {33}b4cd721e8, {33}b4cd721e8, {33}b4cd721e8, {32}b4cd721e
+
+Detected OOK package	2026-08-29 13:49:53
+Analyzing pulses...
+Total count:  329,  width: 532.50 ms		(133125 S)
+Pulse width distribution:
+ [ 0] count:  169,  width:  432 us [424;452]	( 108 S)
+ [ 1] count:  160,  width: 1120 us [1116;1132]	( 280 S)
+Gap width distribution:
+ [ 0] count:  160,  width: 1076 us [1072;1084]	( 269 S)
+ [ 1] count:  159,  width:  384 us [376;448]	(  96 S)
+ [ 2] count:    9,  width: 5052 us [5048;5064]	(1263 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1496;1568]	( 377 S)
+ [ 1] count:    9,  width: 5492 us [5488;5504]	(1373 S)
+Pulse timing distribution:
+ [ 0] count:  328,  width:  408 us [376;452]	( 102 S)
+ [ 1] count:  320,  width: 1100 us [1072;1132]	( 275 S)
+ [ 2] count:    9,  width: 5052 us [5048;5064]	(1263 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15967,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:     364,      0	(+1.4 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B04090198044C13BC2C3C81908190908181908181819081908190908181909090908190908190818181908255+AAB02A04010198044C13BC2C3C819081909081819081818190819081909081819090909081909081908181819355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5068, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5068,g=1088,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd712e8, {33}b4cd712e8, {33}b4cd712e8, {33}b4cd712e8, {33}b4cd712e8, {33}b4cd712e8, {33}b4cd712e8, {33}b4cd712e8, {33}b4cd712e8, {32}b4cd712e
+
+Detected OOK package	2026-08-29 13:49:55
+Analyzing pulses...
+Total count:  329,  width: 532.33 ms		(133083 S)
+Pulse width distribution:
+ [ 0] count:  189,  width:  428 us [420;452]	( 107 S)
+ [ 1] count:  140,  width: 1120 us [1116;1128]	( 280 S)
+Gap width distribution:
+ [ 0] count:  179,  width: 1084 us [1072;1144]	( 271 S)
+ [ 1] count:  140,  width:  384 us [380;392]	(  96 S)
+ [ 2] count:    9,  width: 5056 us [5052;5068]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1512 us [1496;1576]	( 378 S)
+ [ 1] count:    9,  width: 5496 us [5488;5504]	(1374 S)
+Pulse timing distribution:
+ [ 0] count:  329,  width:  412 us [380;452]	( 103 S)
+ [ 1] count:  319,  width: 1100 us [1072;1144]	( 275 S)
+ [ 2] count:    9,  width: 5056 us [5052;5068]	(1264 S)
+ [ 3] count:    1,  width: 11284 us [11284;11284]	(2821 S)
+Level estimates [high, low]:  15903,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     743,      0	(+2.8 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B0409019C044C13C02C1481908190908181908181819081908190908181909090818190908181819081818255+AAB02A0401019C044C13C02C14819081909081819081818190819081909081819090908181909081818190818355
+Attempting demodulation... short_width: 428, long_width: 1120, reset_limit: 5072, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=428,l=1120,r=5072,g=1148,t=277,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd733b8, {33}b4cd733b8, {33}b4cd733b8, {33}b4cd733b8, {33}b4cd733b8, {33}b4cd733b8, {33}b4cd733b8, {33}b4cd733b8, {33}b4cd733b8, {32}b4cd733b
+
+Detected OOK package	2026-08-29 13:49:57
+Analyzing pulses...
+Total count:  329,  width: 532.89 ms		(133223 S)
+Pulse width distribution:
+ [ 0] count:  159,  width:  432 us [424;448]	( 108 S)
+ [ 1] count:  170,  width: 1124 us [1116;1132]	( 281 S)
+Gap width distribution:
+ [ 0] count:  150,  width: 1076 us [1072;1088]	( 269 S)
+ [ 1] count:  169,  width:  384 us [372;444]	(  96 S)
+ [ 2] count:    9,  width: 5056 us [5052;5068]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1496;1568]	( 377 S)
+ [ 1] count:    9,  width: 5496 us [5492;5512]	(1374 S)
+Pulse timing distribution:
+ [ 0] count:  328,  width:  408 us [372;448]	( 102 S)
+ [ 1] count:  320,  width: 1100 us [1072;1132]	( 275 S)
+ [ 2] count:    9,  width: 5056 us [5052;5068]	(1264 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15945,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:    1150,      0	(+4.4 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B04090198044C13C02C3C81908190908181908181819081908190908181909081908190819090819090908255+AAB02A04010198044C13C02C3C819081909081819081818190819081909081819090819081908190908190909355
+Attempting demodulation... short_width: 432, long_width: 1124, reset_limit: 5072, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1124,r=5072,g=1092,t=277,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd75488, {33}b4cd75488, {33}b4cd75488, {33}b4cd75488, {33}b4cd75488, {33}b4cd75488, {33}b4cd75488, {33}b4cd75488, {33}b4cd75488, {32}b4cd7548
+
+Detected OOK package	2026-08-29 13:49:59
+Analyzing pulses...
+Total count:  329,  width: 532.62 ms		(133156 S)
+Pulse width distribution:
+ [ 0] count:  159,  width:  432 us [424;456]	( 108 S)
+ [ 1] count:  170,  width: 1120 us [1116;1132]	( 280 S)
+Gap width distribution:
+ [ 0] count:  150,  width: 1076 us [1068;1084]	( 269 S)
+ [ 1] count:  169,  width:  384 us [376;444]	(  96 S)
+ [ 2] count:    9,  width: 5052 us [5048;5064]	(1263 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1496;1572]	( 377 S)
+ [ 1] count:    9,  width: 5492 us [5488;5500]	(1373 S)
+Pulse timing distribution:
+ [ 0] count:  328,  width:  408 us [376;456]	( 102 S)
+ [ 1] count:  320,  width: 1100 us [1068;1132]	( 275 S)
+ [ 2] count:    9,  width: 5052 us [5048;5064]	(1263 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15950,      1
+RSSI: -0.1 dB SNR: 42.0 dB Noise: -42.1 dB
+Frequency offsets [F1, F2]:     971,      0	(+3.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B04090198044C13BC2C3C81908190908181908181819081908190908181909081909090819081819090908255+AAB02A04010198044C13BC2C3C819081909081819081818190819081909081819090819090908190818190909355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5068, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5068,g=1088,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd74588, {33}b4cd74588, {33}b4cd74588, {33}b4cd74588, {33}b4cd74588, {33}b4cd74588, {33}b4cd74588, {33}b4cd74588, {33}b4cd74588, {32}b4cd7458
+
+Detected OOK package	2026-08-29 13:50:02
+Analyzing pulses...
+Total count:  296,  width: 479.02 ms		(119756 S)
+Pulse width distribution:
+ [ 0] count:  179,  width:  432 us [424;452]	( 108 S)
+ [ 1] count:  117,  width: 1120 us [1116;1132]	( 280 S)
+Gap width distribution:
+ [ 0] count:  171,  width: 1080 us [1068;1088]	( 270 S)
+ [ 1] count:  116,  width:  388 us [376;448]	(  97 S)
+ [ 2] count:    8,  width: 5056 us [5048;5064]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  287,  width: 1508 us [1496;1568]	( 377 S)
+ [ 1] count:    8,  width: 5492 us [5488;5500]	(1373 S)
+Pulse timing distribution:
+ [ 0] count:  295,  width:  412 us [376;452]	( 103 S)
+ [ 1] count:  288,  width: 1096 us [1068;1132]	( 274 S)
+ [ 2] count:    8,  width: 5056 us [5048;5064]	(1264 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  16005,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     685,      0	(+2.6 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B0408019C044813C02C3C81908190908181908181819081908190908181909081908181818190818181908255+AAB02A0401019C044813C02C3C819081909081819081818190819081909081819090819081818181908181819355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5068, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5068,g=1092,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd75ee8, {33}b4cd75ee8, {33}b4cd75ee8, {33}b4cd75ee8, {33}b4cd75ee8, {33}b4cd75ee8, {33}b4cd75ee8, {33}b4cd75ee8, {32}b4cd75ee
+
+Detected OOK package	2026-08-29 13:50:04
+Analyzing pulses...
+Total count:  362,  width: 586.26 ms		(146565 S)
+Pulse width distribution:
+ [ 0] count:  219,  width:  432 us [424;448]	( 108 S)
+ [ 1] count:  143,  width: 1120 us [1116;1132]	( 280 S)
+Gap width distribution:
+ [ 0] count:  208,  width: 1080 us [1072;1140]	( 270 S)
+ [ 1] count:  143,  width:  380 us [376;392]	(  95 S)
+ [ 2] count:   10,  width: 5056 us [5052;5064]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  351,  width: 1512 us [1496;1576]	( 378 S)
+ [ 1] count:   10,  width: 5496 us [5492;5504]	(1374 S)
+Pulse timing distribution:
+ [ 0] count:  362,  width:  412 us [376;448]	( 103 S)
+ [ 1] count:  351,  width: 1096 us [1072;1140]	( 274 S)
+ [ 2] count:   10,  width: 5056 us [5052;5064]	(1264 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15980,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:     909,      0	(+3.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B040A019C044813C02C3C81908190908181908181819081908190908181909081818190818181909081818255+AAB02A0401019C044813C02C3C819081909081819081818190819081909081819090818181908181819090818355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5068, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5068,g=1144,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd77738, {33}b4cd77738, {33}b4cd77738, {33}b4cd77738, {33}b4cd77738, {33}b4cd77738, {33}b4cd77738, {33}b4cd77738, {33}b4cd77738, {33}b4cd77738, {32}b4cd7773
+
+Detected OOK package	2026-08-29 13:50:06
+Analyzing pulses...
+Total count:  329,  width: 532.12 ms		(133029 S)
+Pulse width distribution:
+ [ 0] count:  169,  width:  432 us [424;448]	( 108 S)
+ [ 1] count:  160,  width: 1120 us [1116;1132]	( 280 S)
+Gap width distribution:
+ [ 0] count:  159,  width: 1080 us [1072;1144]	( 270 S)
+ [ 1] count:  160,  width:  384 us [376;392]	(  96 S)
+ [ 2] count:    9,  width: 5056 us [5052;5064]	(1264 S)
+Pulse period distribution:
+ [ 0] count:  319,  width: 1508 us [1496;1580]	( 377 S)
+ [ 1] count:    9,  width: 5496 us [5488;5504]	(1374 S)
+Pulse timing distribution:
+ [ 0] count:  329,  width:  408 us [376;448]	( 102 S)
+ [ 1] count:  319,  width: 1100 us [1072;1144]	( 275 S)
+ [ 2] count:    9,  width: 5056 us [5052;5064]	(1264 S)
+ [ 3] count:    1,  width: 11324 us [11324;11324]	(2831 S)
+Level estimates [high, low]:  15948,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:    1112,      0	(+4.2 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+view at https://triq.org/pdv/#AAB02B04090198044C13C02C3C81908190908181908181819081908190908181909081819090909090819081818255+AAB02A04010198044C13C02C3C819081909081819081818190819081909081819090818190909090908190818355
+Attempting demodulation... short_width: 432, long_width: 1120, reset_limit: 5068, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=432,l=1120,r=5068,g=1148,t=275,y=0'
+[104;94m[[37mpulse_slicer_pwm[94m][0m Analyzer Device
+codes     : {33}b4cd760b8, {33}b4cd760b8, {33}b4cd760b8, {33}b4cd760b8, {33}b4cd760b8, {33}b4cd760b8, {33}b4cd760b8, {33}b4cd760b8, {33}b4cd760b8, {32}b4cd760b
+
